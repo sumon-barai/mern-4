@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>form tag</h1>
+
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="type your name" />
+      </div>
+      <div>
+        <label for="email">email</label>
+        <input id="email" type="text" value="" placeholder="type your email" />
+      </div>
+      <div>
+        <label for="">password</label>
+        <input type="password" />
+      </div>
+      <div>
+        <label for="">Gender :</label>
+        <input type="radio" name="gender" /> <label for="">Male</label>
+        <input type="radio" name="gender" /> <label for="">FeMale</label>
+      </div>
+      <div>
+        <span>Hobbies : </span>
+        <input type="checkbox" /> <label for="">cricket</label>
+        <input type="checkbox" /> <label for="">football</label>
+        <input type="checkbox" /> <label for="">batmiton</label>
+      </div>
+
+      <div>
+        <label>select country</label>
+        <div>
+          <select>
+            <option value="" selected disabled>choose one country</option>
+            <option value="">bangladesh</option>
+            <option value="">england</option>
+            <option value="">ghana</option>
+            <option value="">china</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <div>
+        <label>select country</label>
+        <div>
+          <select>
+            <optgroup label="asia">
+              <option value="">bangladesh</option>
+              <option value="">england</option>
+              <option value="">ghana</option>
+              <option value="">china</option>
+            </optgroup>
+
+            <optgroup label="europe">
+              <option value="">bangladesh</option>
+              <option value="">england</option>
+              <option value="">ghana</option>
+              <option value="">china</option>
+            </optgroup>
+          </select>
+        </div>
+      </div>
+
+      <input type="submit" value="submit" />
+      <input type="reset" value="reset" />
+    </form>
+  </body>
+</html>
