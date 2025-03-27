@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* common css start */
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+}
+
+.btn {
+  background-color: #d1d1d1;
+  min-height: 80px;
+  min-width: 220px;
+  border: 0;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 16px;
+}
+
+.btn.btn-primary {
+  background: #094b72;
+  color: #fff;
+}
+
+.btn.btn-warring {
+  background: yellow;
+  color: red;
+}
+
+.btn.btn-sm-primary {
+  min-height: 50px !important;
+  min-width: 180px;
+  background: #094b72;
+  color: #fff;
+}
+
+/* common css end */
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/*  header css start*/
+.header-section {
+  padding: 20px 0;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header-section .header-area {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header-section .header-area .logo img {
+  width: 144px;
+}
+
+.header-section .header-area .toggler {
+  display: none;
+}
+.header-section .header-area .menu {
+  display: flex;
+}
+.header-section .header-area .menu {
+  margin-left: auto;
+  display: flex;
+}
+.header-section .header-area .menu .navbar-nav {
+  display: flex;
+  list-style: none;
+}
+.header-section .header-area .menu .navbar-nav li a {
+  color: #2d2f30;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin-left: 56px;
+  text-transform: uppercase;
+}
+.header-section .header-area .menu .search-bar {
+  margin-left: 110px;
+}
+
+@media (max-width: 992px) {
+  .header-section .header-area .toggler {
+    display: block;
+  }
+
+  /* .header-section .header-area .menu {
+    display: none;
+  } */
+}
+
+/* hero css start */
+.hero-section {
+  width: 100%;
+  min-height: 924px;
+  background: #f9f8f9;
+}
+
+.hero-section .hero-area {
+  position: relative;
+}
+.hero-section .hero-area .hero-content .hero-title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #094b72;
+  padding-top: 226px;
+}
+.hero-section .hero-area .hero-content {
+  max-width: 750px;
+}
+.hero-section .hero-area .hero-content p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 158%;
+  letter-spacing: 0.5px;
+  color: #4f4f4f;
+  padding: 40px 0 36px 0;
+}
+.hero-section .hero-area .hero-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.hero-section .hero-area .hero-img img {
+  height: 900px;
+}
+.hero-section .hero-area .trusted-company {
+  margin-top: 115px;
+}
+.hero-section .hero-area .trusted-company p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140.5%;
+  color: #8b8c8c;
+}
+.hero-section .hero-area .trusted-company .company {
+  max-width: 300px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 34px 0;
+}
